@@ -13,16 +13,16 @@ Dispersion plots and heat maps were made to find direct relationships between ea
 
 ## Machine learning
 
-The dataset was splitted into 3 subsets: train, cross validation (cv) and test, with a proportion of 60% 20% and 20% of the total dataset respectively. Then several classification algorithms were deployed: GaussianNB, RandomForest, XGBoost,  LogisticRegression, DecisionTree, KNeighbors and SVC. With the first set of results, Hyper parameter tunning was performed using (buscar en el repo) and a second train and test run was made, expecting an improvement in both accuracy and recall metrics. Afterwards, Soft and Hard voting methods were used, but no aditional improvement was noticed.
+The dataset was splitted into 3 subsets: train, cross validation (cv) and test, with a proportion of 60% 20% and 20% of the total dataset respectively. Then several classification algorithms were deployed: GaussianNB, RandomForest, XGBoost,  LogisticRegression, DecisionTree, KNeighbors and SVC. The first set of results (link) was promising, where we highlight x and y for having the least amount of false prediction and false negative respectively. Then hyper parameter tunning was performed (link) and a second train and test run was made, expecting an improvement in both accuracy and recall metrics. There was x decrease of false predictions.Afterwards, Soft and Hard voting methods were used, but no aditional improvement was noticed (link).
 
 ## Neural network
+
+A Feedforward Neural Network (FNN), which consisted of 3 layers of 64, 32 and 1 neurons and relu as activation function for inner layers, and sigmoid for output layer, was trained using the same data division used on classification algorithms. It first results(link) were on pair of the best results obtained via XGBoost, but further improvement was expected at this task, so optimization was made. First L1 and L2 regularization methods were implemented (resultados). Next, hyper parameters optimization algorithm (hyper opt) was used. Finally, threshold parameter was tunned looking for the lowest amount of false negatives. 
 
 ### Results
 
 ## Machine learning
 
 ## Neural network
-
-## Results discusion
 
 ## Conclusion
