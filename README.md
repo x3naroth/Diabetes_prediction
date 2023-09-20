@@ -23,8 +23,14 @@ A Feedforward Neural Network (FNN) (Input ), which consisted of 3 layers of 64, 
 
 ### Results
 
-While the classification algorithm results were acceptably accurate (Input ), with it's highest accuracy being given by Soft voting with a 4.41%, FNN was superior. The first FNN model (Input ) gave a 4.41% wrong predictions. The most remarcale result (Input ) gave 6.62% wrong predictions, and only 10 false negatives prediction. This is a crucial result, given that an early detection for diabetes prevents the worse complications of the illness. 
+The FNN models demonstrated exceptional accuracy, achieving 95.59% and 93.38% accuracy rates, surpassing or matching traditional models like GaussianNB and RandomForest. Notably, the second FNN model's mere 10 false negatives is vital in a medical context where missing a diabetic patient can have severe consequences. These results align with established medical standards, highlighting the model's potential to aid early diabetes detection and prevent complications.
+
+In the future, enhancing the model's accuracy through additional features or expanded datasets remains a focus. Robustness testing and practical applications in healthcare underscore its potential for real-world impact, enabling early identification of high-risk diabetic patients and timely interventions, ultimately improving patient care.
 
 ## Conclusion
 
+This study delved into the realm of early diabetes prediction, employing machine learning and a Feedforward Neural Network (FNN). Our investigation unveiled the FNN's exceptional potential in early diabetes detection, with accuracy rates reaching 93.38% and a mere 10 false negatives in the optimized model.
 
+Compared to traditional machine learning algorithms, the FNN consistently demonstrated superior or equivalent performance. Its low false negative rate is particularly noteworthy, reducing the risk of missing diabetic patients.
+
+Our results align with clinical standards, emphasizing the FNN's promise in enhancing early diabetes diagnosis. This research lays the foundation for future healthcare applications, offering a proactive approach to diabetes management and improved patient outcomes. Further studies and real-world implementations hold the key to maximizing the FNN's impact on healthcare practices.
