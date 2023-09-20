@@ -1,7 +1,10 @@
 ### Models for early diabetes prediction
 
-
 Using a sample of 4200 Chinese adults, which has 18 features collected from blood tests and triage, several data analysis were driven, in order to model a consistent way to predict if a patient is diabetic.
+## Install
+You can install the necessary dependencies by running the following command:
+pip install -r requirements.txt
+
 ### Methodology
 
 ## Preliminary analysis
